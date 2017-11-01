@@ -2,7 +2,7 @@
 Opinionated basic project template
 
 Using
-AspNetCore
-Autofac
-Serilog
-Swagger
+* AspNetCore
+* Autofac
+* Serilog
+* Swagger

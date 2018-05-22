@@ -24,13 +24,13 @@ namespace BaseProjectTemplate.CodingIntent
 
 			try
 			{
-				Log.Information("Starting web host");
+				Log.Information("Starting new web host");
 				BuildWebHost(args).Run();
 				return 0;
 			}
 			catch (Exception ex)
 			{
-				Log.Fatal(ex, "Host terminated unexpectedly");
+				Log.Fatal(ex, "Host terminated");
 				return 1;
 			}
 			finally

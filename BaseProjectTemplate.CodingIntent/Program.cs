@@ -24,7 +24,7 @@ namespace BaseProjectTemplate.CodingIntent
 
 			try
 			{
-				Log.Information("Starting web host");
+				Log.Information("Starting codingintent web host");
 				BuildWebHost(args).Run();
 				return 0;
 			}

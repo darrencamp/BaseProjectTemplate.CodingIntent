@@ -30,7 +30,7 @@ namespace BaseProjectTemplate.CodingIntent
 			}
 			catch (Exception ex)
 			{
-				Log.Fatal(ex, "Host terminated unexpectedly");
+				Log.Fatal(ex, "An Unexpected error occurred.");
 				return 1;
 			}
 			finally
